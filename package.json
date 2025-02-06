@@ -35,5 +35,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "homepage": "https://rachelh2071.github.io/cs378-p2/",
+"scripts": {
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
   }
 }
