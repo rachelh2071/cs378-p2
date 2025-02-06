@@ -1,4 +1,5 @@
 import React from 'react';
+import './MenuItem.css';
 
 
 // This is a functional component that represents a single menu item. It currently takes in the title and displays it in an h2 element.
