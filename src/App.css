@@ -1,8 +1,37 @@
-/* 
-  Style your elements by creating CSS classes here.
-  Below, you can see an example of a class called "menu" that changes the color of the text to blue. Modify according to your needs.
-*/
+/* Container for the whole app */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
 
+/* Logo Styling */
+.logo {
+  width: 200px;
+  margin: 20px auto;
+}
+
+/* Slogan Styling */
+.slogan {
+  margin-bottom: 40px;
+}
+
+.primary {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.secondary {
+  font-size: 1.2rem;
+  color: #666;
+}
+
+/* Menu grid styling */
 .menu {
-  color: blue;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px 0;
 }
