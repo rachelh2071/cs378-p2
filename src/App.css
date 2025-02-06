@@ -1,8 +1,8 @@
 /* General Container */
 .container {
-  max-width: 1200px;
+/*   max-width: 1200px;
   margin: 0 auto;
-  padding: 20px;
+  padding: 20px; */
   text-align: center;
 }
 
@@ -30,13 +30,13 @@
 }
 
 /* Menu grid styling */
-.menu {
+/* .menu {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   gap: 20px;
   padding: 20px 0;
   justify-items: center; /* Centers each menu item */
-}
+} */
 
 .menu-item {
   border: 1px solid #ddd;
