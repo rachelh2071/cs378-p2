@@ -29,13 +29,13 @@
   color: #666;
 }
 
-/* Menu grid styling */
-/* .menu {
+/* Menu grid styling 
+ .menu {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   gap: 20px;
   padding: 20px 0;
-  justify-items: center; /* Centers each menu item */
+  justify-items: center;
 } */
 
 .menu-item {
