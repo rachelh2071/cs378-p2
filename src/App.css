@@ -15,7 +15,7 @@
 /* Slogan Styling */
 .slogan {
   margin-bottom: 40px;
-  font-family: 'Cursive', sans-serif;  /* Use cursive font for slogan */
+  font-family: cursive;  /* Use cursive font for slogan */
   color: #ff6347; /* Tomato color */
 }
 
