@@ -1,9 +1,9 @@
 /* General Container */
 .container {
-/*   max-width: 1200px;
-  margin: 0 auto;
-  padding: 20px; */
   text-align: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
 }
 
 /* Logo Styling */
@@ -52,8 +52,6 @@
   text-align: center;
 }
 
-
-
 .details {
   margin-top: 10px;
 }
@@ -88,4 +86,14 @@
 
 .add-button:hover {
   background-color: #218838;
+}
+
+.cart-summary {
+  margin-top: 20px;
+  padding: 15px;
+  border-top: 2px solid #ddd;
+}
+
+.btn {
+  margin: 5px;
 }
