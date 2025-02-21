@@ -50,7 +50,6 @@ function App() {
     });
     orderSummary += `Total: $${calculateTotal().toFixed(2)}`;
     alert(orderSummary);
-    clearCart();
   };
 
   const calculateTotal = () => {
